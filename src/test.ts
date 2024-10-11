@@ -1,3 +1,3 @@
-import GetGoogleLinks from "./index";
+import GetGoogleFlights from "./index";
 
-GetGoogleLinks({ searches: `crawlora\nscaletech` });
+GetGoogleFlights({ departureCity: 'ahmedabad', arrivalCity: 'berlin', departureDate: '01-01-2025' });

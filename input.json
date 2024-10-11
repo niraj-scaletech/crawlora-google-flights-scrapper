@@ -1,12 +1,32 @@
 [
     {
-        "type": "textarea",
+        "type": "input",
         "datatype": "string",
-        "placeholder": "Enter search keywords per line",
-        "default": "crawlora",
-        "label": "Google searchs",
-        "regex": "/^.*$/",
+        "placeholder": "Enter departure city (e.g., Delhi)",
+        "default": "Delhi",
+        "label": "Departure City",
+        "regex": "/^.+$/",
         "required": true,
-        "name": "searches"
-      }
+        "name": "departureCity"
+    },
+    {
+        "type": "input",
+        "datatype": "string",
+        "placeholder": "Enter arrival city (e.g., Mumbai)",
+        "default": "Mumbai",
+        "label": "Arrival City",
+        "regex": "/^.+$/",
+        "required": true,
+        "name": "arrivalCity"
+    },
+    {
+        "type": "input",
+        "datatype": "string",
+        "placeholder": "Enter departure date (dd mm yyyy, dd/mm/yyyy, etc.)",
+        "default": "15-10-2025",
+        "label": "Departure Date",
+        "regex": "/^(\\d{2}[- /.]?\\d{2}[- /.]?\\d{4})$/",
+        "required": true,
+        "name": "departureDate"
+    }
 ]
