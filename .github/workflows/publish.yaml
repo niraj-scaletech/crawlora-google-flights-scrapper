@@ -30,7 +30,7 @@ jobs:
           node-version-file: '.nvmrc'
 
       - name: install
-        run: corepack enable && pnpm install
+        run: corepack enable && npm install
 
       - name: build
         run: npm run build
