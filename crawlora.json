@@ -14,5 +14,6 @@
     "short_description": "Get google flights data quickly",
     "version": "1.0.0",
     "documentation_file": "./documentation.md",
-    "input_file": "./input.json"
+    "input_file": "./input.json",
+    "app_id": "1eccf1d7-9b7c-4ba3-82f7-0557a9256637"
 }
