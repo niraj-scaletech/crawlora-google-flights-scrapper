@@ -23,7 +23,7 @@
         "type": "input",
         "datatype": "string",
         "placeholder": "Enter departure date (dd mm yyyy, dd/mm/yyyy, etc.)",
-        "default": "15-10-2025",
+        "default": "01-01-2025",
         "label": "Departure Date",
         "regex": "/^(\\d{2}[- /.]?\\d{2}[- /.]?\\d{4})$/",
         "required": true,
